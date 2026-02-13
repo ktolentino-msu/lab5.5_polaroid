@@ -14,3 +14,24 @@ body {
     padding: 0;
 }
 
+header {
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+
+h2 {
+    font-size: 190px;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 64px;
+    font-weight: 900;
+}
+
