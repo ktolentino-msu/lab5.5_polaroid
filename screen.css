@@ -28,10 +28,26 @@ h1 {
 h2 {
     font-size: 190px;
     font-weight: 900;
+    text-transform: uppercase;
 }
 
 h3 {
     font-size: 64px;
     font-weight: 900;
+}
+
+main {
+    background: url(images/polaroid.png) no-repeat center 100px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.hero {
+    text-align: center;
+    min-height: 1000px;
+}
+
+main h3 {
+    text-align: center;
 }
 
