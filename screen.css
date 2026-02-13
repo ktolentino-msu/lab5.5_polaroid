@@ -4,6 +4,9 @@
     --main-bg-color: #e9e9e9;
     --primary-text-color: #424242;
     --accent-color: #ff3f3c;
+    --normal-font-weight: 400;
+    --heavy-font-weight: 900;
+    --base-font-size: 2em;
 }
 
 body {
@@ -38,6 +41,12 @@ h3 {
     font-weight: 900;
 }
 
+p {
+    font-size: var(--base-font-size);
+    font-weight: 400;
+    line-height: 1.3em;
+}
+
 main {
     background: url(images/polaroid.png) no-repeat center 100px;
     margin: 0 auto;
@@ -56,7 +65,9 @@ main h3 {
 .details ul li {
     list-style-type: none;
     margin: 20px 0;
-    padding: 0 0 0 40px;
+    padding: 0 0 0 100px;
+    font-size: var(--base-font-size);
+    line-height: 2em;
 }
 
 .details ul li.wifi {
